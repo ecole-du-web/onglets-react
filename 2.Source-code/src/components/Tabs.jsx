@@ -6,13 +6,13 @@ export default function tabs({tabsData}) {
   console.log(selectedTab);
   return <div className="max-w-2xl min-h-[250px] mx-auto rounded border border-slate-400 mb-10">
     <div className="flex divide-x divide-slate-700">
-      {tabsData.map((obj, index) => (
+      {tabsData.map((tab, index) => (
         <button 
         key={index}
         onClick={() => setSelectedTab(index)}
         className="w-full p-4 uppercase font-medium bg-slate-200 hover:bg-slate-300"
         >
-          {tabsData[index].buttonContent}
+          {tab[index].buttonContent}
         </button>
       ))}
     </div>
