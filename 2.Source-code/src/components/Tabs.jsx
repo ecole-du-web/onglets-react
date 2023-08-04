@@ -12,7 +12,7 @@ export default function tabs({tabsData}) {
         onClick={() => setSelectedTab(index)}
         className="w-full p-4 uppercase font-medium bg-slate-200 hover:bg-slate-300"
         >
-          {tab[index].buttonContent}
+          {tab.buttonContent}
         </button>
       ))}
     </div>
