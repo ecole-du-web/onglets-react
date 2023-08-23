@@ -1,4 +1,4 @@
-## Alt 101
+## Onglets React
 
 Code source de la vidéo youtube : [Lien vers la vidéo](https://youtu.be/M_wE7c3qKqs)
 
